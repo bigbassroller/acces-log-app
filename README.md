@@ -1,21 +1,23 @@
 # AccessLogApp
 
-**TODO: Add description**
+Processes a log file hosted as a Github Gist
 
-## Installation
+## How to use
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `access_log_app` to your list of dependencies in `mix.exs`:
+Clone the repo
+`git clone https://github.com/bigbassroller/acces-log-app`
 
-```elixir
-def deps do
-  [
-    {:access_log_app, "~> 0.1.0"}
-  ]
-end
-```
+Change into the directory
+`cd acces-log-app`
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/access_log_app](https://hexdocs.pm/access_log_app).
+Install dependencies
+`mix deps.get`
 
+Go into interactive shell
+`iex -S mix`
+
+and run this command
+`AccessLogApp.CLI.fetch`
+
+For interations and debugging:
+`clear && recompile && AccessLogApp.CLI.fetch`
