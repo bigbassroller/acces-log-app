@@ -47,3 +47,6 @@ and run this command
 
 For interations and debugging:
 `clear && recompile && AccessLogApp.CLI.fetch`
+
+Run test
+`mix test`
